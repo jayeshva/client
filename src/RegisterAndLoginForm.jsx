@@ -21,7 +21,7 @@ export default function RegisterAndLoginForm() {
     
       <form className="w-64 mx-auto mb-12" onSubmit={handleSubmit}>
       <h2 id="head">BIT's Chat Room </h2>
-      <img src="src/assets/bit.png" id="logo"/>
+      <img src="/bit.png" id="logo"/>
         <input value={username}
                onChange={ev => setUsername(ev.target.value)}
                type="text" placeholder="username"
